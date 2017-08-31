@@ -12,6 +12,7 @@ This is in order of date started.
 
 # Language Guides
 1. Python
+
 Folder: Python
 
 Version used: 3.6.0
