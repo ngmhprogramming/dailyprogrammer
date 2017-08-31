@@ -13,13 +13,13 @@ This is in order of date started.
 # Language Guides
 1. Python
 
-Folder: Python
+    Folder: Python
 
-Version used: 3.6.0
+    Version used: 3.6.0
 
-Language Download: [Python 3.6.0](https://www.python.org/downloads/release/python-360/)
+    Language Download: [Python 3.6.0](https://www.python.org/downloads/release/python-360/)
 
-Additional Steps: None
+    Additional Steps: None
 
 # Organisation
 Folders are organised by each language by name.
