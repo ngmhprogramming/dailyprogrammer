@@ -1,0 +1,63 @@
+##Write a program that can translate Morse code in the format of ...---...
+##A space and a slash will be placed between words. ..- / --.-
+##For bonus, add the capability of going from a string to Morse code.
+##Super-bonus if your program can flash or beep the Morse.
+##This is your Morse to translate:
+##.... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--
+
+from time import sleep
+from os import system
+chars = "abcdefghijklmnopqrstuvwxyz1234567890"
+morseCode = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----"]
+
+def toText(morse):
+    global chars
+    global morseCode
+    morse = morse.split(" ")
+    for char in range(len(morse)):
+        if morse[char] == "/":
+            morse[char] = " "
+        else:
+            index = morseCode.index(morse[char])
+            morse[char] = chars[index]
+    morse = "".join(morse)
+    return morse
+
+def toMorse(text):
+    global chars
+    global morseCode
+    text = text.replace(" ", "/ ")
+    text = list(text)
+    for char in range(len(text)):
+        if text[char] != "/" and text[char] != " ":
+            index = chars.index(text[char])
+            text[char] = morseCode[index]
+            if char != len(text) - 1:
+                text[char] += " "
+    text = "".join(text)
+    return text
+
+def flash(morse):
+    unit = 1
+    system("cls")
+    for char in morse:
+        if char == ".":
+            print(".")
+            sleep(unit)
+            system("cls")
+            sleep(unit)
+        elif char == "-":
+            print(".")
+            sleep(unit * 3)
+            system("cls")
+            sleep(unit)
+        elif char == " ":
+            sleep(unit)
+            system("cls")
+        elif char == "/":
+            sleep(unit)
+            system("cls")
+
+print(toText(".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--"))
+print(toMorse("hello daily programmer good luck on the challenges today"))
+flash(".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--")

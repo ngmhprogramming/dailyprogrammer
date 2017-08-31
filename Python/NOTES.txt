@@ -1,0 +1,20 @@
+Python
+
+All Desciptions:
+
+All Functions:
+
+Refactored:
+
+WIP / Not Done:
+Intermediate - 4
+Hard - 4
+Intermediate - 6
+Hard - 6
+Hard - 7
+Intermediate - 8
+Hard - 8
+Hard - 9
+Easy - 10
+Intermediate - 10
+Hard - 10
