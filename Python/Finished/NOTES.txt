@@ -1,0 +1,77 @@
+Function List
+---
+Easy
+
+details()
+
+unknownForce()
+
+encrypt()
+decrypt()
+cipher()
+
+passwords()
+
+getData()
+login()
+signup()
+accounts()
+stealData()
+hack()
+
+pinalysis()
+
+toText()
+toMorse()
+flash()
+
+bottleSong()
+
+sort()
+
+---
+Difficult
+
+makeMenu()
+
+move()
+fight()
+spawn()
+
+encrypt()
+decrypt()
+caesarDecrypt()
+cipherMore()
+
+anagrams()
+
+superDiagonal()
+
+replaceText
+
+---
+Hard
+
+guess()
+
+startwatch()
+
+unscramble()
+
+evaluateBattle()
+battle()
+
+
+Not Finished
+---
+Difficult - 4
+Hard - 4
+Difficult - 6
+Hard - 6
+Hard - 7
+Difficult - 8
+Hard - 8
+Hard - 9
+Easy - 10
+Difficult - 10
+Hard - 10

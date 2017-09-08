@@ -1,0 +1,12 @@
+Started.
+Lapped. Interval was 0:00:00.234392 seconds.
+Lapped. Interval was 0:00:00.171921 seconds.
+Lapped. Interval was 0:00:00.296819 seconds.
+Lapped. Interval was 0:00:00.250106 seconds.
+Lapped. Interval was 0:00:00.156292 seconds.
+Lapped. Interval was 0:00:00.062519 seconds.
+Lapped. Interval was 0:00:00.078138 seconds.
+Lapped. Interval was 0:00:00.234412 seconds.
+Lapped. Interval was 0:00:00.359329 seconds.
+Lapped. Interval was 0:00:00.609565 seconds.
+Stopped. Total time was 0:00:03.203605 seconds.
