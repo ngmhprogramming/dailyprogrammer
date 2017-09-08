@@ -1,4 +1,4 @@
-# DailyProgrammer
+# dailyprogrammer
 This repository contains all my solutions to challenges from the [dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/) subreddit.
 
 # Usage
