@@ -17,7 +17,7 @@ This is in order of date started.
 
     Version Used: 3.6.0
 
-    Language Download: [Python 3.6.0](https://www.python.org/downloads/release/python-360/)
+    Language Download: [Python 3.6.0](https://www.python.org/downloads/release/python-360/), [Python Downloads](https://www.python.org/downloads/)
 
     Additional Steps:
     1. [Optional] Configure the Python path variable so programs can be run in cmd from anywhere.
@@ -26,9 +26,9 @@ This is in order of date started.
 
     Folder: PHP
     
-    Version Used:
+    Version Used: 7.1.6
     
-    Language Download:
+    Language Download: [PHP 7.1.6](https://screenmessage.com/php716), [PHP Downloads](http://www.php.net/downloads.php)
     
     Additional Steps:
     1. [Optional] Configure the PHP path variable so programs can be run in cmd from anywhere.
