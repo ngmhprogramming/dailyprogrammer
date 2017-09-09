@@ -32,7 +32,15 @@ This is in order of date started.
     
     Additional Steps:
     1. [Optional] Configure the PHP path variable so programs can be run in cmd from anywhere.
+    
+3. Ruby
 
+    Folder: Ruby
+    
+    Version Used: 2.4.1-2
+    
+    Language Download: [Ruby 2.4.1-2 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-2/rubyinstaller-2.4.1-2-x64.exe), [Ruby 2.4.1-2 (x86)](https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-2/rubyinstaller-2.4.1-2-x86.exe), [Ruby Downloads](https://rubyinstaller.org/downloads/)
+    
 # Organisation
 Folders are organised by each language by name.
 
