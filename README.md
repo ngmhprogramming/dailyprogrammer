@@ -20,7 +20,6 @@ This is in order of date started.
     Language Download: [Python 3.6.0](https://www.python.org/downloads/release/python-360/), [Python Downloads](https://www.python.org/downloads/)
 
     Additional Steps:
-    1. [Optional] Configure the Python path variable so programs can be run in cmd from anywhere.
 
 2. PHP
 
@@ -28,10 +27,9 @@ This is in order of date started.
     
     Version Used: 7.1.6
     
-    Language Download: [PHP 7.1.6](https://screenmessage.com/php716), [PHP Downloads](http://www.php.net/downloads.php)
+    Language Download: [PHP 7.1.6](https://screenmessage.com/dailyprogrammerphpmessage), [PHP Downloads](http://www.php.net/downloads.php)
     
     Additional Steps:
-    1. [Optional] Configure the PHP path variable so programs can be run in cmd from anywhere.
     
 3. Ruby
 
@@ -41,7 +39,10 @@ This is in order of date started.
     
     Language Download: [Ruby 2.4.1-2 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-2/rubyinstaller-2.4.1-2-x64.exe), [Ruby 2.4.1-2 (x86)](https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-2/rubyinstaller-2.4.1-2-x86.exe), [Ruby Downloads](https://rubyinstaller.org/downloads/)
     
+    Additional Steps:
+    
+    
 # Organisation
 Folders are organised by each language by name.
 
-Each folder will have NOTES.txt which will state the progress of each language.
+Each folder will have NOTES.txt which will state the progress of each language. There will be a generic NOTES.txt which has stuff that would apply to all the languages.
